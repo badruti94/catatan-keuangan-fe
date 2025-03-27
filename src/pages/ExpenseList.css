@@ -1,0 +1,63 @@
+/* ExpenseList.css */
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters select,
+.filters input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.table-container {
+    max-height: 500px; /* Sesuaikan tinggi sesuai kebutuhan */
+    overflow-y: auto;
+}
+
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.expense-table th {
+    background: #007bff;
+    color: #fff;
+}
+
+.expense-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.expense-table tr:hover {
+    background: #ddd;
+}

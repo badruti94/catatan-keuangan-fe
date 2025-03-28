@@ -67,7 +67,8 @@ nav ul li a {
 }
 
 .expense-form select,
-.expense-form input {
+.expense-form input,
+.expense-form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

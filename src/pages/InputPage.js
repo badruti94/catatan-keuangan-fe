@@ -84,7 +84,7 @@ function InputPage() {
                     <label>Jumlah:</label>
                     <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} />
                     <label>Catatan:</label>
-                    <input type="text" value={notes} onChange={(e) => setNotes(e.target.value)} />
+                    <textarea name="notes" value={notes} onChange={(e) => setNotes(e.target.value)} rows="3" placeholder="Tambahkan catatan..." />
                     <button type="submit" className="submit-button">Tambah</button>
                 </form>
             </div>
